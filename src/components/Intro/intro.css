@@ -8,7 +8,7 @@
 
 .bg{
     position: absolute;
-    top: 4rem;
+    top: 4.5rem;
     right: 0;
     z-index: -1;
     object-fit: cover;
@@ -57,7 +57,7 @@
 
 @media screen and (max-width:840px){
     .bg {
-        right: -15vw;
+        right: -20vw;
     }
     .introContent{
         font-size: 10vw;
@@ -67,8 +67,8 @@
     }
 }
 
-@media screen and (max-width:840px){
+@media screen and (max-width:540px){
     .bg {
-        right: -20vw;
+        right: -45vw;
     }
 }

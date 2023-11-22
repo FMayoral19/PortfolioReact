@@ -1,0 +1,24 @@
+.toolsSection{
+    background-color: rgb(30, 30, 30);
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+}
+
+.tool{
+    object-fit: cover;
+    height: 4-5rem;
+    width: 4rem;
+}
+
+.library{
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+}
