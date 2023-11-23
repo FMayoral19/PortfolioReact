@@ -6,7 +6,7 @@ import './contact.css'
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
-    const email = 'fcoalanmayoral@hotmail.com';
+
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
@@ -34,11 +34,9 @@ const Contact = () => {
             <textarea className='msg' name="message" rows='5' placeholder='Your message' />
             <button type='submit' value='send' className='submitBtn'>Send</button>
             <div className='links'>
-           <a href='https://github.com/FMayoral19' target="_blank" rel="noopener"> <img src={GitHubIcon} alt='GitHub' className='link' /></a>
-           <a href='https://www.linkedin.com/in/francisco-mayoral/' target="_blank" rel="noopener"> <img src={LinkedInIcon} alt='LinkedIn' className='link' /></a>
-           <a href={`mailto:${email}`} rel="noreferrer">
-  <img src={MailIcon} alt='Mail' className='link' />
-</a>
+            <img src={GitHubIcon} alt='GitHub' className='link' />
+            <img src={LinkedInIcon} alt='LinkedIn' className='link' />
+            <img src={MailIcon} alt='Mail' className='link' />
            </div>
         </form>
       </div>
