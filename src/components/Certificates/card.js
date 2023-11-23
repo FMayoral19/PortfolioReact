@@ -7,13 +7,9 @@ export default function Card(props) {
                 src={`../images/${props.coverImg}`} 
                 className="card--image"  alt=""
             />
-            <div className="card--stats">
-                <span className="gray">{props.Organization}</span>
-            </div>
-            <p className="card--title">{props.title}</p>
-            <p className="card--price">
-                <span className="bold">Grade: {props.grade}</span>
-            </p>
+            <p className="card--title"><b>{props.title}</b></p>
+            <p className="card--price">{props.Organization}</p>
+            <p>{props.description}</p>
         </div>
     )
 }

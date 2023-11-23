@@ -8,12 +8,12 @@ import "./projects.css"
 const Projects = () => {
   return (
     <section id="projects">
-      <h2 className='projectsTitle'>These are my projects. Feel free to click on them!</h2>
+      <h2 className='projectsTitle'>These are my projects. Feel free to see the description on them!</h2>
       <div className='projectsImg'>
         <figure className='cardImg'>
         <img src={Portfolio1} alt='projectimg' className='imgProject'/>
         <figcaption>
-        <p>Ley de bernulli -Matlab</p>
+        <p>Principle of Torricelli -Matlab</p>
         <br />
         <p>Simulation of the draining of a water tank, applying principles of physics.</p>
         <br/>

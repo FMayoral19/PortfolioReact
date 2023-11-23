@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.svg'
 import {Link} from 'react-scroll'
 import contactImg from '../../assets/contact.png'
-import MobMenu from '../../assets/menu.jpg'
+import MobMenu from '../../assets/menu.svg'
 
 const Navbar = () => {
 const [showMenu, setShowMenu] = useState(false)
